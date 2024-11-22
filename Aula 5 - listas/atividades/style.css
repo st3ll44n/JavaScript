@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* escopo do css - Salva as variaveis */
+:root{
+        --corPrimaria:rgb(0, 0, 0) ;
+        --corSecundaria:rgb(174, 93, 0) ;
+        --branco: rgb(227, 227, 227);
+}
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content:space-around;
+    background-color: var(--corSecundaria);
+}
+
+nav{
+    display:flex;
+    gap: 10px;
+}
+
+#logo{
+    display: flex;
+    gap: 20px;}
+
+#logo img{
+    width: 30px;
+}
+
+#catalogo{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.livro{
+    width: 250px;
+    padding: 15px;
+    background-color: var(--corPrimaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+button{
+    background-color:rgb(175, 19, 19);
+    display: flex;
+    padding: 5%;
+}
+
+.livro img{
+    width: 80%;
+}
+
+main h1{
+    text-align: center;
+    margin: 10px 5px;
+}
