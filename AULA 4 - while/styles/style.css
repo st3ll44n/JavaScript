@@ -45,8 +45,8 @@ nav{
 }
 
 .livro{
-    width: 200px;
-    padding: 5%;
+    width: 250px;
+    padding: 15px;
     background-color: var(--corPrimaria);
     display: flex;
     flex-direction: column;
