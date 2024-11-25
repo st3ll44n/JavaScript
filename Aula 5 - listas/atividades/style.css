@@ -6,7 +6,7 @@
 
 /* escopo do css - Salva as variaveis */
 :root{
-        --corPrimaria:rgb(0, 0, 0) ;
+        --corPrimaria:rgb(102, 96, 96) ;
         --corSecundaria:rgb(174, 93, 0) ;
         --branco: rgb(227, 227, 227);
 }
@@ -43,7 +43,7 @@ nav{
     flex-wrap: wrap;
 }
 
-.livro{
+.filme{
     width: 250px;
     padding: 15px;
     background-color: var(--corPrimaria);
@@ -61,7 +61,7 @@ button{
     padding: 5%;
 }
 
-.livro img{
+.filme img{
     width: 80%;
 }
 
