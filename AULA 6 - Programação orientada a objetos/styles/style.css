@@ -4,15 +4,29 @@
 }
 
 .post{
+    margin: 5px;
     width: 90%;
     height: auto;
-    background-color: rgb(45, 90, 0);
-    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 body{
-    background-color: darkslategray;
+    background-color: gray;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: larger;
+}
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(150, 62, 0);
+}
+
+button{
+    background-color:whitesmoke;
+    display: flex;
 }

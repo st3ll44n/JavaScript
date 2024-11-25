@@ -28,3 +28,9 @@ function postarFeed() {
     pensamento = document.querySelector('#pensamento').value
     user2.postar (pensamento)
 }
+
+document.getElementById('catalogo').innerHTML +=`
+        <div class="filmes">
+            <h3>${bio}</h3>
+        <div/>
+        `
