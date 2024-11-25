@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    padding: 10px auto;
+}
+
+.post{
+    width: 90%;
+    height: auto;
+    background-color: rgb(45, 90, 0);
+    border-radius: 5px;
+}
+
+body{
+    background-color: darkslategray;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+}
