@@ -1,11 +1,11 @@
 *{
     margin: 10px;
-    padding: 10px auto;
+    padding: auto;
 }
 
 .post{
-    margin: 5px;
-    width: 90%;
+    margin: 10px;
+    width: 50%;
     height: auto;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
@@ -25,8 +25,51 @@ header, footer{
     justify-content:space-around;
     background-color: rgb(150, 62, 0);
 }
+input{
+    width: 200px;
+}
 
 button{
     background-color:whitesmoke;
+    width: auto;
     display: flex;
+    float: right;
+}
+
+.bio{
+    text-align: start;
+    background-color: rgba(150, 62, 0, 0.7) ;
+    width: 20%;
+    height: 360px;
+    padding: 40px 0px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    float: inline-start;
+}
+
+.bio img{
+    width: 250px;
+    border-radius: 100%;
+    margin: 0px 50px 0px;
+}
+
+.bio2{
+    background-color: rgba(150, 62, 0, 0.7) ;
+    width: 77%;
+    padding: 40px 0px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    float:inline-end;
+}
+
+.bio3{
+    background-color: rgba(150, 62, 0, 0.7) ;
+    width: 77%;
+    padding: 40px 0px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    float:inline-end;
 }

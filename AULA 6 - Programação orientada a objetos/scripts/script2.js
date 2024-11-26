@@ -16,9 +16,7 @@ class usuario {
                     <p> ${pensamento}</p>
             <div/>
               `
-        }
-    }
-}
+        }}}
 
 var user1 = new usuario (1,'st3ll44n', 'Stella Andrade', 'stellan@gmail.com', 'Estudante de Tecnologia da Informação', 'feminino')
 var user2 = new usuario (2, 'stellaaaa', 'Outra Stella', 'algumemail@gmail.com', 'a mesma de antes', 'feminino')
@@ -26,11 +24,5 @@ var user2 = new usuario (2, 'stellaaaa', 'Outra Stella', 'algumemail@gmail.com',
 function postarFeed() {
     alert('Postado com sucesso!')
     pensamento = document.querySelector('#pensamento').value
-    user2.postar (pensamento)
+    user1.postar (pensamento) 
 }
-
-document.getElementById('catalogo').innerHTML +=`
-        <div class="filmes">
-            <h3>${bio}</h3>
-        <div/>
-        `
