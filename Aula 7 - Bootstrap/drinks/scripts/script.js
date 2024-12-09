@@ -9,11 +9,11 @@ class Categoria {
     }
 }
 
-lista_categorias.push(new Categoria('SUCOS','images/suco.jpg','mais diversos sucos! Laranja, morango e muito mais.','Suco feito por @Marca'))
-lista_categorias.push(new Categoria('REFRIGERANTE','images/suco.jpg','Refrigerante top :)','refri feito por @Marca'))
-lista_categorias.push(new Categoria('REFRIGERANTE','images/suco.jpg','Refrigerante top :)','refri feito por @Marca'))
-lista_categorias.push(new Categoria('REFRIGERANTE','images/suco.jpg','Refrigerante top :)','refri feito por @Marca'))
-lista_categorias.push(new Categoria('REFRIGERANTE','images/suco.jpg','Refrigerante top :)','refri feito por @Marca'))
+lista_categorias.push(new Categoria('SUCO','images/suco.jpg','mais diversos sucos! Laranja, morango e muito mais!','Suco feito por @Marca'))
+lista_categorias.push(new Categoria('REFRIGERANTE','images/refri.png','Refrigerantes dos mais diversos sabores e tipos! :)','refri feito por @Marca'))
+lista_categorias.push(new Categoria('CERVEJAS','images/cerveja.avif','Cervejas com ou sem álcool e diversos sabores :)','refri feito por @Marca'))
+lista_categorias.push(new Categoria('COQUETEIS','images/coquetel.jpg','Batidas álcoolicas ou não de diversos sabores','refri feito por @Marca'))
+lista_categorias.push(new Categoria('ÁGUA','images/agua.avif','Garrafas, copos e diversos tamanhos de água com ou sem gás! :)','refri feito por @Marca'))
 lista_categorias.push(new Categoria('REFRIGERANTE','images/suco.jpg','Refrigerante top :)','refri feito por @Marca'))
 
 lista_categorias.forEach(categoria => {
